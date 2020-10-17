@@ -1,0 +1,184 @@
+/* Font : Varela Round */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round";
+    background-color: rgb(20, 24, 42);
+    color: white;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 202, 232);
+}
+
+header h1 {
+    display: block;
+    font-size: 4vw;
+    background-color: rgb(190, 202, 232);
+    padding: 1.5vw;
+    color: rgb(35, 35, 35);
+}
+
+/* Score board */
+
+.scoreboard-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreboard-ctr {
+    position: relative;
+    border: 0.3vw solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    padding: 2vw 5vw;
+}
+
+.scoreboard-ctr p {
+    position: absolute;
+    font-size: 4vw;
+    border: 0.3vw solid white;
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    transition: all 0.3s;
+}
+
+.user-badge {
+    left: -26vw;
+}
+
+.computer-badge {
+    right: -31.5vw;
+}
+
+.score-font {
+    font-size: 6vw;
+}
+
+.result {
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.result p {
+    font-size: 4vw;
+}
+
+/* RPS Options */
+.options {
+    text-align: center;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    margin: 0 2.5vw;
+    border: 0.4vw solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.option:hover {
+    background-color: white;
+}
+
+.option img {
+    display: block;
+    margin: 1.6vw;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+}
+
+/* Draw and total rounds Counters */
+
+.counter-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+}
+
+.round-counter-p {
+    margin: 1.5vw 0;
+}
+
+.wld-div {
+    display: flex;
+}
+
+.counter {
+    margin: 0 1vw;
+}
+
+.lose-p {
+    padding: 0 2vw;
+    border-left: 0.2vw solid white;
+    border-right: 0.2vw solid white;
+}
+
+
+/* Glows */
+
+.green-glow {
+    border: 0.4vw solid green;
+    box-shadow: 0 0 10px green;
+    transition: all 0.3s;
+}
+
+.red-glow {
+    border: 0.4vw solid red;
+    box-shadow: 0 0 10px red;
+    transition: all 0.3s;
+}
+
+.draw-glow {
+    border: 0.4vw solid rgb(207, 207, 44);
+    box-shadow: 0 0 10px rgb(207, 207, 44);
+    transition: all 0.3s;
+}
+
+/* Player Highlights */
+
+.win-highlights {
+    background-color: green;
+    transition: all 0.3s;
+}
+
+.lose-highlights {
+    background-color: red;
+    transition: all 0.3s;
+}
+
+.draw-highlights {
+    background-color: rgb(207, 207, 44);
+    transition: all 0.3s;
+}
+
+
+
+
+

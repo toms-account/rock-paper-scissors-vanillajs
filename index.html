@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles-index.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <!-- Score board -->
+        <div class="scoreboard-wrapper">
+            <div class="scoreboard-ctr">
+                <p class="user-badge">User</p>
+                <div id="user-score" class="score-font">0</div>
+                <span class="score-font">:</span>
+                <div id="computer-score" class="score-font">0</div>
+                <p class="computer-badge">Computer</p>
+            </div>
+        </div>
+
+        <div class="result">
+            <p>You Win!</p>
+        </div>
+
+        <div class="options">
+            <div id="r" class="option">
+                <img src="img/rock.jpg" alt="Rock">
+            </div>
+            <div id="p" class="option">
+                <img src="img/paper.jpg" alt="Paper">
+            </div>
+            <div id="s" class="option">
+                <img src="img/scissors.jpg" alt="Scissors">
+            </div>
+        </div>
+
+        <div class="counter-div">
+            <p class="round-counter-p">Rounds : <span id="round-counter">0</span></p>
+            <div class="wld-div">
+                <p class="counter">Wins : <span id="win-counter">0</span></p>
+                <p class="counter lose-p">Loses : <span id="lose-counter">0</span></p>
+                <p class="counter">Draws : <span id="draw-counter">0</span></p>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
